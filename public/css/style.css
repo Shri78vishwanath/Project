@@ -1,0 +1,125 @@
+body{
+    font-family: 'Plus Jakarta Sans',sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+.container{
+    flex:1;
+}
+
+.navbar{
+    height:5rem;
+    background-color:white;
+}
+
+.fa-compass{
+    color:red;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color:black !important;
+}
+
+.f-info-links a{
+    text-decoration:none;
+    color:black;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand{
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info{
+    text-align: center;
+    height:8rem;
+    background-color: rgb(68, 154, 154);
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+/* cards */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width:100% !important;
+    height:100px;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding:0 !important;
+}
+
+.card-text{
+    font-weight: 400 !important;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+/* Card Effect */
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity:0.2;
+    background-color:rgb(2, 2, 2);
+}
+/* new page */
+.add-btn{
+    background-color: brown;
+    border:none !important;
+}
+.show-card{
+    /* width:100px;
+    height:100px; */
+    width:100%;
+    height:auto;
+    margin-bottom: 1.5rem;
+}
+.show-card img {
+    width: 100%; /* Full width of the card */
+    height: auto; /* Adjust height automatically */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+    border-radius: 0.5rem; /* Add some border-radius */
+}
+.btns{
+    flex:inline;
+}
+footer {
+    height: auto; /* Allow the height to adjust based on content */
+    padding: 1.5rem 0;
+}
+
+/* map */
+#map { 
+    height: 400px; 
+    width: 80vh;
+}
